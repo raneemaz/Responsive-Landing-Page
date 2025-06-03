@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Landing page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    </head> 
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h1 class="title">RLP</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                </div>
+            </nav>
+            <div class="hero">
+                <h2>Welcome to Our Responsive Landing Page</h2>
+                <p>Transforming ideas into powerful digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="cta-button">Get Started</a>
+                    <a href="#portfolio" class="cta-button secondary">View Our Work</a>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="experiences">
+                    <p class="exp">10+</p>
+                    <p class="experience">Projects</p>
+                </div>
+                <div class="experiences">
+                    <p class="exp">5+</p>
+                    <p class="experience">Years of Experience</p>
+                </div>
+                <div class="experiences">
+                    <p class="exp">100%</p>
+                    <p class="experience">Client Satisfaction</p>
+                </div>
+                <div class="experiences">
+                    <p class="exp">24/7</p>   
+                    <p class="experience">Support</p>   
+                </div>
+            </div>
+        </header>
+
+        <main class="sections-container">
+            <div class="section-row">
+                <section id="about" class="section-column">
+                    <div class="section-title">
+                        <h2>Who We Are</h2>
+                    </div>
+                    <div class="section-content">
+                        <p>We are a team of passionate professionals dedicated to delivering exceptional digital solutions. Our expertise spans web development, design, and digital marketing.</p>
+                        <p>With a focus on innovation and quality, we strive to exceed our clients' expectations and help them achieve their business goals.</p>
+                    </div>
+                </section>
+
+                <section id="services" class="section-column">
+                    <div class="section-title">
+                        <h2>Our Services</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="services-grid">
+                            <div class="service">
+                                <div class="service-icon">🛠️</div>
+                                <h3>Web Development</h3>
+                                <p>Building responsive and user-friendly websites tailored to your needs.</p>
+                            </div>
+                            <div class="service">
+                                <div class="service-icon">🎨</div>
+                                <h3>Design</h3>
+                                <p>Creating visually stunning designs that enhance user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="section-row">
+                <section id="portfolio" class="section-column">
+                    <div class="section-title">
+                        <h2>Our Portfolio</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="portfolio-grid">
+                            <div class="portfolio-item">
+                                <img src="pics/cafeu.png" alt="Cafe Website" class="portfolio-image">
+                                <div class="portfolio-content">
+                                    <h3>Cafe Website</h3>
+                                    <p>A beautiful website for a local coffee shop with online ordering.</p>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <img src="pics/payrot.png" alt="Payment Website" class="portfolio-image">
+                                <div class="portfolio-content">
+                                    <h3>Payment Website</h3>
+                                    <p>Secure payment gateway integration for e-commerce.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" class="section-column">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="section-content">
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="pics/icons8-facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="social-link"><img src="pics/icons8-github.svg" alt="Github"></a>
+                    <a href="#" class="social-link"><img src="pics/icons8-instagram.svg" alt="Instagram"></a>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <hr>
+                <p class="copyright">&copy; 2025 Prodigy InfoTech. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>   
+</html>
