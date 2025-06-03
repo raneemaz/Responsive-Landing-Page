@@ -1,4 +1,3 @@
-/* ===== CSS Variables ===== */
 :root {
   --bg-dark: #0a0a1a;
   --bg-darker: #050510;
@@ -17,7 +16,7 @@
   --max-width: 1200px;
 }
 
-/* ===== Base Styles ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -189,7 +188,6 @@ header {
   transition: var(--transition);
 }
 
-/* ===== Hero Section ===== */
 .hero {
   padding: 6rem 2rem;
   text-align: center;
@@ -217,7 +215,7 @@ header {
   flex-wrap: wrap;
 }
 
-/* ===== Experience Stats ===== */
+
 .stats-container {
   display: flex;
   flex-wrap: wrap;
@@ -309,7 +307,7 @@ header {
   opacity: 1;
 }
 
-/* ===== Services Sections ===== */
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -356,7 +354,7 @@ header {
 
 }
 
-/* ===== Portfolio Section ===== */
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -394,7 +392,6 @@ header {
   margin-bottom: 0.5rem;
 }
 
-/* ===== Contact Form ===== */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -440,7 +437,7 @@ textarea {
   resize: vertical;
 }
 
-/* ===== Footer ===== */
+
 footer {
   background: rgba(5, 5, 15, 0.9);
   padding: 3rem 2rem;
@@ -504,7 +501,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ===== Responsive Design ===== */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem;
@@ -583,7 +580,7 @@ footer {
   }
 }
 
-/* ===== Accessibility Improvements ===== */
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -601,7 +598,7 @@ footer {
   outline-offset: 2px;
 }
 
-/* ===== Animation Utilities ===== */
+
 .fade-in {
   animation: fadeIn 0.5s ease-in forwards;
 }
