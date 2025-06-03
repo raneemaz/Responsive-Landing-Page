@@ -1,4 +1,3 @@
-// ======= Mobile Navigation Toggle =======
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
@@ -6,7 +5,6 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// ======= Smooth Scroll for Anchor Links =======
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -26,7 +24,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ======= Scroll Reveal Animations =======
 const revealElements = document.querySelectorAll("section, .portfolio-item");
 
 const revealOnScroll = () => {
